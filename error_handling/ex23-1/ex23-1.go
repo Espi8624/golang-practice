@@ -38,7 +38,7 @@ func main() {
 	if err != nil {
 		err = WriteFile(filename, "This is WriteFile")
 		if err != nil {
-			fmt.Println("파일 생성에 실패했습니다.", err)
+			fmt.Println("파일 생성에 실패했습니다...", err)
 			return
 		}
 		line, err = ReadFile(filename)
